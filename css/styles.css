@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
+   
 }
 
 .container {
@@ -29,7 +30,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     padding-left: 15px;
     padding-right: 15px;
     width: 1158px;
-    /* outline: 2px solid teal; */
+    
 }
 
 .list {
@@ -43,11 +44,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 header {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-
-
-.container.main-nav {
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -358,13 +354,21 @@ header {
 
 
 .project-card {
-    border: 0.5px solid #F4F4FD;
+    
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-    padding-bottom: 32px;
     margin-bottom: 42px;
     margin-right: 24px;
     width: 360px;
+    
    
+}
+
+.text-project-card {
+    padding: 32px 16px;
+    border: 0.5px solid #F4F4FD;
+    border-top: none;
+    background-color: #fff;
+    margin-top: 0;
 }
 
 .project-card:nth-child(3n) {
@@ -377,7 +381,6 @@ header {
 
 .project-name {
     margin-bottom: 8px;
-    margin-left: 16px;
 
     color: var(--primary-text-color);
     font-weight: 500;
@@ -388,7 +391,6 @@ header {
 }
 
 .project-direction {
-    margin-left: 16px;
 
     color: var(--seconadary-text-color);
     font-weight: 400;
@@ -406,8 +408,4 @@ header {
 .list-button:not(:last-child) {
     margin-right: 24px;
 
-}
-
-.img-portfolio {
-    margin-bottom: 32px;
 }
